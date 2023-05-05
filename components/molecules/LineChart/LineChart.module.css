@@ -1,0 +1,7 @@
+.main {
+	background-color: black;
+}
+
+.main > canvas {
+	height: 80vh;
+}

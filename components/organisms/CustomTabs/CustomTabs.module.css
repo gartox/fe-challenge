@@ -1,0 +1,32 @@
+.tabList {
+}
+.tabList > * + * {
+	margin-left: 8px;
+}
+
+.tab {
+	background-color: var(--layer1);
+	border: none;
+	padding: 16px;
+	cursor: pointer;
+	font-weight: 500;
+	color: #7b7d80;
+}
+.selected {
+	background-color: var(--layer2);
+	border-top: 1px solid rgb(13, 166, 217);
+	color: white;
+}
+
+@media (max-width: 500px) {
+	.tabList {
+		display: flex;
+		justify-content: space-between;
+	}
+	.tabList > * + * {
+		margin-left: 0;
+	}
+	.tab {
+		padding: 16px 8px;
+	}
+}

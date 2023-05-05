@@ -1,0 +1,24 @@
+.main {
+  min-height: 100vh;
+  padding:16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button{
+  border: none;
+  background-color: var(--layer2);
+  padding: 32px;
+  font-size: 32px;
+  cursor: pointer;
+  transition: transform .2s ease-in-out;
+}
+
+.button + .button{
+  margin-left: 24px;
+}
+
+.button:hover{
+  transform: scale(1.5);
+}

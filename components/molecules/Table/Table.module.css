@@ -1,0 +1,34 @@
+.root{
+  color: white !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+.header{
+  background-color: var(--layer2);
+  padding-top: 10px;
+  border-radius: 0 !important;
+}
+
+.body{
+  background-color: black;
+  padding-bottom: 16px;
+}
+
+.row{
+  
+  border: 0 !important;
+}
+
+.root  .cell{
+  outline: none !important;
+  padding: 0 16px !important;
+  border-bottom: 1px solid gray !important;
+}
+
+.columnHeader{
+  padding: 0 16px !important;
+}
+
+.separator{
+  opacity: 0 !important;
+}

@@ -1,0 +1,23 @@
+.main {
+	width: 100%;
+}
+
+.tables {
+	display: flex;
+	width: 100%;
+	margin: 64px 0;
+	gap: 32px;
+}
+
+.tables > * {
+	width: calc(50% - 16px);
+}
+
+@media (max-width: 1024px) {
+	.tables {
+		flex-wrap: wrap;
+	}
+	.tables > * {
+		width: 100%;
+	}
+}

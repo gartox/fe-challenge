@@ -1,0 +1,1 @@
+export { DailyTrendTable } from './DailyTrendTable';

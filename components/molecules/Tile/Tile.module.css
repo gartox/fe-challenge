@@ -1,0 +1,18 @@
+.main{
+  background-color: var(--layer2);
+  padding-bottom: 8px;
+}
+
+.title{
+  background-color: var(--layer1);
+  padding: 16px;
+  font-weight: 400;
+
+
+}
+
+.body{
+  background-color: black;
+  height: 200px;
+
+}
